@@ -26,7 +26,7 @@
 -include_lib("eqc/include/eqc.hrl").
 -include_lib("eunit/include/eunit.hrl").
 
--define(NUMTESTS, 128).
+-define(NUMTESTS, 16).
 -define(QC_OUT(P),
         eqc:on_output(fun(Str, Args) ->
                               io:format(user, Str, Args) end, P)).
